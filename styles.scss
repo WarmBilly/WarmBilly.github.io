@@ -1,0 +1,59 @@
+$primary-color: #117cf7;
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    padding: 10px;
+
+    a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 14px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    color: $primary-color;
+}
+
+form {
+    margin-top: 20px;
+
+    input {
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+
+        button {
+            background: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+button {
+    background: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
